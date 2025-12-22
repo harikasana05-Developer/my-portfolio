@@ -1,0 +1,26 @@
+.projects {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  .projects h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  .project-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 300px;
+    border-radius: 8px;
+    text-align: left;
+  }
+  .card a {
+    color: #1e90ff;
+    text-decoration: none;
+  }
+  
