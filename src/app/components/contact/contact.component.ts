@@ -12,7 +12,7 @@ export class ContactComponent {
 
   downloadPDF() {
     const link = document.createElement('a');
-    link.href = 'assets/Harika_FrontendDeveloper.pdf'; // path to PDF
+    link.href = 'Harika_FrontendDeveloper.pdf'; // path to PDF
     link.download = 'Harika_FrontendDeveloper.pdf';   // filename when downloaded
     link.target = '_blank';
     link.click();
