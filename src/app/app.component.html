@@ -1,5 +1,52 @@
-<app-intro></app-intro>
-<app-about></app-about>
-<app-skills></app-skills>
-<app-projects></app-projects>
-<app-contact></app-contact>
+
+
+<div class="layout">
+   
+    <!-- LEFT SIDEBAR -->
+    <aside class="sidebar">
+        <h2 class="logo">Harika Sana</h2>
+
+        <a routerLink="/home" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">
+            Home
+        </a>
+
+        <a routerLink="/skills" routerLinkActive="active">
+            Skills
+        </a>
+
+        <a routerLink="/projects" routerLinkActive="active">
+            Projects
+        </a>
+
+        <a routerLink="/about" routerLinkActive="active">
+            About
+        </a>
+
+        <a routerLink="/contact" routerLinkActive="active">
+            Contact
+        </a>
+    </aside>
+    
+
+    <!-- CONTENT -->
+    <main class="content">
+        <div class="page-wrapper">
+          
+          <!-- Common Heading -->
+          <h1 class="page-title">
+            Professional Profile | Harika Sana
+          </h1>
+      
+          <!-- Card Wrapper -->
+          <div class="page-card">
+            <router-outlet></router-outlet>
+          </div>
+          <div class="page-image">
+            <img src="assets/laptop.jpg" alt="page Image" />
+          </div>
+        </div>
+
+       
+      </main>
+   
+</div>

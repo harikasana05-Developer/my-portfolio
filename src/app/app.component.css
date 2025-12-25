@@ -1,0 +1,92 @@
+.layout {
+    display: flex;
+    min-height: 100vh;
+  }
+  
+  /* Sidebar */
+  .sidebar {
+    width: 220px;
+    background: #0f172a;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .logo {
+    color: white;
+    margin-bottom: 24px;
+  }
+  
+  /* Links */
+  .sidebar a {
+    color: #cbd5f5;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 6px;
+    transition: 0.2s;
+  }
+  
+  /* Hover */
+  .sidebar a:hover {
+    background: #1e3a8a;
+    color: white;
+  }
+  
+  /* Active */
+  .sidebar a.active {
+    background: #2563eb;
+    color: white;
+    font-weight: 600;
+  }
+  
+  /* Content area */
+  .content {
+    flex: 1;
+    background: #f1f5f9;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  /* Wrapper to center everything */
+  .page-wrapper {
+    width: 100%;
+    max-width: 900px;
+    text-align: center;
+  }
+  
+  /* Heading style */
+  .page-title {
+    font-size: 32px;
+    font-weight: 700;
+    color: #0f172a;
+    margin-bottom: 24px;
+  }
+  
+  /* Card style */
+  .page-card {
+    background: #ffffff;
+    padding: 32px;
+    border-radius: 14px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    min-height: 320px;
+  }
+  .page-image {
+    text-align: center;
+    margin-top: -40px; /* overlaps card by 40px */
+    margin-right: -50px;
+  }
+  
+  .page-image img {
+    max-width: 120px;      /* adjust size */
+    width: 100%;
+    height: auto;
+    height: auto;
+    border-radius: 50%; 
+    border: 10px solid white;   /* makes the image perfectly circular */
+ /* optional: gives a border that matches card */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* optional: adds depth */
+  }
+  

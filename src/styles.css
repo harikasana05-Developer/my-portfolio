@@ -1,1 +1,7 @@
-/* You can add global styles to this file, and also import other style files */
+.section-title {
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 24px;
+    color: #0f172a;
+    text-decoration: underline;
+  }/* You can add global styles to this file, and also import other style files */

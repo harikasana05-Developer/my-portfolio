@@ -1,13 +1,18 @@
-.contact {
-    padding: 50px 20px;
-    text-align: center;
-  }
-  .contact h2 {
-    font-size: 2rem;
-    margin-bottom: 15px;
-  }
-  .contact a {
-    color: #1e90ff;
-    text-decoration: none;
-  }
-  
+.contact-card {
+  background: #f8fafc;
+  padding: 20px;
+  margin-bottom: 8px;
+  border-radius: 12px;
+  border-left: 4px solid #2563eb;
+}
+p{
+  text-align: center;
+  font-size: large;
+
+}
+button{
+  background-color: #2563eb;
+  padding: 8px;
+  color: #f8fafc;
+  cursor: pointer;
+}
